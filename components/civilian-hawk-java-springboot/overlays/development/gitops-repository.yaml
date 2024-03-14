@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: civilian-hawk-java-springboot-gitops-repository
+spec:
+  url: https://github.com/rhtap-rhdh-qe/civilian-hawk-java-springboot-gitops
